@@ -6,7 +6,7 @@
 /*   By: jenavarr <jenavarr@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:33:31 by jenavarr          #+#    #+#             */
-/*   Updated: 2024/10/10 16:41:47 by jenavarr         ###   ########.fr       */
+/*   Updated: 2024/10/10 17:17:56 by jenavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <iostream>
 # include <string>
 # include <stdexcept>
-# include "Form.hpp"
+# include "AForm.hpp"
 
 class Bureaucrat{
 	private:
@@ -39,7 +39,7 @@ class Bureaucrat{
 		void decrementGrade();
 
 		//Sign form print
-		void signForm(Form &form);
+		void signAForm(AForm &form);
 
 
 		//GradeTooHighException

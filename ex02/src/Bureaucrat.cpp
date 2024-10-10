@@ -6,7 +6,7 @@
 /*   By: jenavarr <jenavarr@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 15:38:52 by jenavarr          #+#    #+#             */
-/*   Updated: 2024/10/10 17:04:38 by jenavarr         ###   ########.fr       */
+/*   Updated: 2024/10/10 17:17:56 by jenavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void Bureaucrat::decrementGrade()
 	}
 }
 
-void Bureaucrat::signForm(Form &form)
+void Bureaucrat::signAForm(AForm &form)
 {
 	try {
 			form.beSigned(*this);
